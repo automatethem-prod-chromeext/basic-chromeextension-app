@@ -3,6 +3,7 @@
   "name": "기본 크롬확장 프로그램",
   "version":"0.0.1",
   "description": "기본 크롬확장 프로그램",
+  "author": "Cranberry",
   "background": {
     "service_worker": "background.js"
   },
