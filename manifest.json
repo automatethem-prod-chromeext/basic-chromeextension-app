@@ -1,0 +1,33 @@
+{
+  "manifest_version":3,
+  "name": "기본 크롬확장 프로그램",
+  "version":"0.0.1",
+  "description": "기본 크롬확장 프로그램",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "_matches": ["https://*.google.com/*"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "action": {
+    "default_popup":"popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "bookmarks",
+    "contextMenus"
+  ],
+  "host_permissions": [ "*://*/*" ],
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
