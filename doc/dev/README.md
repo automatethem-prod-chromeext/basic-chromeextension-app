@@ -133,3 +133,8 @@ https://www.youtube.com/watch?v=vS8KYgAgQZ0&list=PLlntQfRHhjjB4pxzH6qR2lly1ZgaZA
 https://stackoverflow.com/questions/67963337/do-i-need-to-declare-host-permissions-in-my-chrome-extension
 
 No, you don't need to add host permission unless your extension needs to interact directly with the users browser/client data, for example cookies, webRequest, and tabs.
+
+## 1
+
+//const tabs = await chrome.tabs.query({ active: true, currentWindow: true });  
+const tabs = await chrome.tabs.query({active: true, lastFocusedWindow: true});
