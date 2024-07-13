@@ -1,15 +1,6 @@
 # doc
 
-## 패킹
+참고 자료)
 
-https://github.com/automatethem-js-web-chromeextension/basic-chromeextension-app-nextjs/blob/main/doc/README.md#%ED%8C%A8%ED%82%B9
-
-## 실행
-
-https://github.com/automatethem-js-web-chromeextension/basic-chromeextension-app-nextjs/blob/main/doc/README.md#%EC%8B%A4%ED%96%89
-
-## 배포
-
-https://github.com/automatethem-js-web-chromeextension/basic-chromeextension-app-nextjs/blob/main/doc/README.md#%EB%B0%B0%ED%8F%AC
-
-## 실행 화면 캡처
+크롬 확장(extension) 만들기 - 3분 안에  
+https://www.youtube.com/watch?v=cGUC-txyZaE
