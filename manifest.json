@@ -25,7 +25,7 @@
     "bookmarks",
     "contextMenus"
   ],
-  "host_permissions": [ "*://*/*" ],
+  "host_permissions": [ "<all_urls>" ],
   "icons": {
     "16": "icon.png",
     "32": "icon.png",
